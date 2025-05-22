@@ -86,7 +86,7 @@ $(document).ready(function() {
   $('#username').on('input', function() {
     var username = $(this).val();
     // check using regex if username has at least 1 capital letter, 1 special character, 1 number and at least 8 characters long
-      var regex = /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+      var regex = /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&~])[A-Za-z\d@$!%*?&~]{8,}$/
       if (regex.test(username)) {
           $('#username').removeClass('is-invalid').addClass('is-valid');
           $('#usernameFeedback').text('Valid username').removeClass('text-danger').addClass('text-success');
