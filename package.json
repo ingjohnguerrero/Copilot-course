@@ -1,0 +1,22 @@
+{
+  "name": "bucks2bar",
+  "version": "1.0.0",
+  "description": "## Overview The bucks2bar project is a web application that utilizes Bootstrap for responsive design and custom styles for enhanced user experience. This project aims to provide a seamless interface for users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingjohnguerrero/Copilot-course.git"
+  },
+  "author": "ingjohnguerrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingjohnguerrero/Copilot-course/issues"
+  },
+  "homepage": "https://github.com/ingjohnguerrero/Copilot-course#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
