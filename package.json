@@ -18,5 +18,11 @@
   "homepage": "https://github.com/ingjohnguerrero/Copilot-course#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.3"
   }
 }
